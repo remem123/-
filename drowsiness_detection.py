@@ -95,7 +95,7 @@ while True:
 		(x, y, w, h) = face_utils.rect_to_bb(rect) 
 		cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)	
 		# Put a number 
-		cv2.putText(frame, "Driver", (x - 10, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+		cv2.putText(frame, "Student", (x - 10, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
 		leftEye = shape[lstart:lend]
 		rightEye = shape[rstart:rend] 
